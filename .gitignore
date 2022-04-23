@@ -18,6 +18,7 @@ out
 build
 .gradle
 Common/build-output
+docsOut
 
 # other
 eclipse

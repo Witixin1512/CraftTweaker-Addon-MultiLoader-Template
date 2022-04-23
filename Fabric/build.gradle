@@ -53,6 +53,12 @@ task copyBin(type: Copy){
     into rootProject.file("Common/build-output")
 }
 
+build.finalizedBy('copyFabric')
+task copyFabric(type: Copy){
+    from project(':Fabric').file('build/libs/' + archivesBaseName + "-" + version + ".jar")
+    into rootProject.file("Common/build-output")
+}
+
 jar {
     from("LICENSE") {
         rename { "${it}_${mod_name}" }

@@ -35,8 +35,8 @@ dependencies {
 
 dependencies {
     compileOnly("com.blamejared.crafttweaker:CraftTweaker-common-${minecraft_version}:${crafttweaker_version}")
-    //annotationProcessor("com.blamejared.crafttweaker:Crafttweaker_Annotation_Processors-${minecraft_version}:${crafttweaker_ap_version}")
-    //annotationProcessor("com.blamejared.crafttweaker:CraftTweaker-common-${minecraft_version}:${crafttweaker_version}")
+    annotationProcessor("com.blamejared.crafttweaker:Crafttweaker_Annotation_Processors-${minecraft_version}:${crafttweaker_ap_version}")
+    annotationProcessor("com.blamejared.crafttweaker:CraftTweaker-common-${minecraft_version}:${crafttweaker_version}")
 }
 
 processResources {
@@ -64,6 +64,7 @@ publishing {
         }
     }
 }
+
 task buildProject {
     buildProject.group("build")
     println("Building Forge project!")

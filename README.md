@@ -1,6 +1,6 @@
 # CraftTweaker Addon MultiLoader Template
 
-This is a template repository made using the [MultiLoader](https://github.com/jaredlll08/MultiLoader-Template). CraftTweaker is included as a `compileOnly` dependency, and its Forge and Fabric counterparts are under an `implementation` dependency.
+This is a template repository made using the [MultiLoader](https://github.com/jaredlll08/MultiLoader-Template) template. CraftTweaker is included as a `compileOnly` dependency, and its Forge and Fabric counterparts are under an `implementation` dependency.
 
 This means that most CraftTweaker classes can be placed inside of the Common module, and CrT will load them from there.
 

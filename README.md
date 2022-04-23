@@ -2,6 +2,8 @@
 
 This is a template repository made using the [MultiLoader](https://github.com/jaredlll08/MultiLoader-Template) template. CraftTweaker is included as a `compileOnly` dependency, and its Forge and Fabric counterparts are under an `implementation` dependency.
 
+The initial release targets 1.18.2, but you're free to modify your gradle.properties to update!
+
 This means that most CraftTweaker classes can be placed inside of the Common module, and CrT will load them from there.
 
 Implementations in the Forge and Fabric modules may or may not be required, depending on what you do with your mod and how much of it can be executed using the Common module and Vanilla Gradle.

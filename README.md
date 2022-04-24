@@ -39,7 +39,7 @@ Loader specific projects such as the Forge and Fabric project are used to load t
 
 
 ## Building
-The output of your Forge and Fabric projects is copied over to `Common/output`.
+The output of your Forge and Fabric projects is copied over to `build-output`, a folder in your root directory.
 
 This example mod also includes the CraftTweaker Annotation Processor so you can autogenerate documentation and PR to the CraftTweaker Documentation page.
 Don't forge to add your JavaDocs!

@@ -17,7 +17,7 @@ out
 # gradle
 build
 .gradle
-Common/build-output
+build-output
 docsOut
 
 # other

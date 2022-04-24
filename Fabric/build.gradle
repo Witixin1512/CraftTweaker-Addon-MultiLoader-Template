@@ -56,7 +56,7 @@ task copyBin(type: Copy){
 build.finalizedBy('copyFabric')
 task copyFabric(type: Copy){
     from project(':Fabric').file('build/libs/' + archivesBaseName + "-" + version + ".jar")
-    into rootProject.file("Common/build-output")
+    into rootProject.file("build-output")
 }
 
 jar {

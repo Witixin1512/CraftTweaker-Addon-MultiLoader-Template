@@ -44,7 +44,7 @@ The output of your Forge and Fabric projects is copied over to `Common/output`.
 This example mod also includes the CraftTweaker Annotation Processor so you can autogenerate documentation and PR to the CraftTweaker Documentation page.
 Don't forge to add your JavaDocs!
 
-##Custom Tasks
+## Custom Tasks
 
 The following tasks have been added to make the process easier:
 They are under the `build` group in your gradle tab.

@@ -37,9 +37,18 @@ When using this template the majority of your mod is developed in the Common pro
 
 Loader specific projects such as the Forge and Fabric project are used to load the Common project into the game. These projects also define code that is specific to that loader. Loader specific projects can access all of the code in the Common project. It is important to remember that the Common project can not access code from loader specific projects.
 
+
 ## Building
-The task `buildProject` builds both Fabric and Forge projects.
 The output of your Forge and Fabric projects is copied over to `Common/output`.
 
 This example mod also includes the CraftTweaker Annotation Processor so you can autogenerate documentation and PR to the CraftTweaker Documentation page.
 Don't forge to add your JavaDocs!
+
+##Custom Tasks
+
+The following tasks have been added to make the process easier:
+They are under the `build` group in your gradle tab.
+ 
+- `buildProject` compiles both your Forge and Fabric mods.
+- `generateDocs` generates the documentation using CraftTweaker's Annotation Processor and puts it in a folder called `docsOut` at your project's root directory.
+
